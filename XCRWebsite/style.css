@@ -1,6 +1,7 @@
 ﻿:root {
     --coffee-colour: #140903;
-    --menu-bar-height: 110px;
+    --light-coffee-colour: #fcf2ed;
+    --menu-bar-height: 125px;
 }
 
 @font-face {
@@ -34,6 +35,14 @@ body {
     font-size: 32px;
     align-items: center;
     vertical-align: middle;
+}
+
+.menu-bar a {
+    width: 20%;
+    font-size: 32px;
+    align-items: center;
+    vertical-align: middle;
+    color: inherit;
 }
 
 .clear-menu-bar {
@@ -78,4 +87,28 @@ body {
 
 .social-media {
     margin-bottom: 30px;
+}
+
+.coffee-page-image-caption-table {
+    /*height: 377px;*/
+    height: 100%;
+    margin: 0 auto;
+}
+
+.coffee-page-image-caption {
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+}
+
+.coffee-background {
+    background-color: var(--coffee-colour);
+}
+
+.coffee-background td {
+    color: white;
+}
+
+.light-coffee-background {
+    background-color: var(--light-coffee-colour);
 }
