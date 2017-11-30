@@ -1,6 +1,8 @@
 ﻿:root {
     --coffee-colour: #140903;
     --light-coffee-colour: #fcf2ed;
+    --pizza-colour: #ffd248;
+    --light-pizza-colour: #ffe16d;
     --menu-bar-height: 125px;
 }
 
@@ -111,4 +113,24 @@ body {
 
 .light-coffee-background {
     background-color: var(--light-coffee-colour);
+}
+
+.pizza-background {
+    background-color: var(--pizza-colour);
+}
+
+.big-heading {
+    font-size: 72px;
+}
+
+.block-center {
+    margin: 0 auto;
+}
+
+.pizza-menu-table {
+    font-size: 40px;
+}
+
+.pizza-menu-column-gap {
+    width: 20px;
 }
