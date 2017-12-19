@@ -3,6 +3,8 @@
     --light-coffee-colour: #fcf2ed;
     --pizza-colour: #ffd248;
     --light-pizza-colour: #ffe16d;
+    --handbuilt-roaster-colour: #ed8404;
+    --dark-handbuilt-roaster-colour: #c94a06 /*#ef5d0e*/;
     --menu-bar-height: 125px;
 }
 
@@ -92,7 +94,6 @@ body {
 }
 
 .coffee-page-image-caption-table {
-    /*height: 377px;*/
     height: 100%;
     margin: 0 auto;
 }
@@ -117,6 +118,15 @@ body {
 
 .pizza-background {
     background-color: var(--pizza-colour);
+}
+
+.handbuilt-roaster-background {
+    background-color: var(--handbuilt-roaster-colour);
+}
+
+.dark-handbuilt-roaster-background {
+    background-color: var(--dark-handbuilt-roaster-colour);
+    color: white;
 }
 
 .big-heading {
