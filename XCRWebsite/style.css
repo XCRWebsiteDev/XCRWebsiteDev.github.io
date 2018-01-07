@@ -4,7 +4,7 @@
     --pizza-colour: #ffd248;
     --light-pizza-colour: #ffe16d;
     --handbuilt-roaster-colour: #ed8404;
-    --dark-handbuilt-roaster-colour: #c94a06 /*#ef5d0e*/;
+    --dark-handbuilt-roaster-colour: #c94a06; /*#ef5d0e*/
     --menu-bar-height: 125px;
 }
 
@@ -143,4 +143,9 @@ body {
 
 .pizza-menu-column-gap {
     width: 20px;
+}
+
+.product-selection div {
+    margin: 0 auto;
+    float: none;
 }
